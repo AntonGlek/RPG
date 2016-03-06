@@ -12,28 +12,22 @@ namespace ConsoleApplication1
            Console.Clear();
            Console.WriteLine("-------------");
            Console.WriteLine("Ваша тима");
-           Console.WriteLine("Хп Паладина" + AllCharecters[0].hp);
+           Console.WriteLine("Хп Паладина" + AllCharecters[0].Hp);
            Console.WriteLine("-------------");
-           Console.WriteLine("Хп Шамана" + AllCharecters[1].hp);
+           Console.WriteLine("Хп Шамана" + AllCharecters[1].Hp);
            Console.WriteLine("-------------");
-           Console.WriteLine("Хп " + AllCharecters[2].hp);
+           Console.WriteLine("Хп Жреца" + AllCharecters[2].Hp);
            Console.WriteLine("-------------");
-           Console.WriteLine("Хп " + AllCharecters[3].hp);
-           Console.WriteLine("-------------");
-           Console.WriteLine("Тима врага.");
-           Console.WriteLine("Хп " + AllCharecters[4].hp);
-           Console.Clear();
+           Console.WriteLine("Хп Разбойника" + AllCharecters[3].Hp);
            Console.WriteLine("-------------");
            Console.WriteLine("Тима врага.");
-           Console.WriteLine("Хп " + AllCharecters[5].hp);
-           Console.Clear();
+           Console.WriteLine("Хп Паладина" + AllCharecters[4].Hp);
            Console.WriteLine("-------------");
-           Console.WriteLine("Тима врага.");
-           Console.WriteLine("Хп " + AllCharecters[6].hp);
-           Console.Clear();
+           Console.WriteLine("Хп Шамана" + AllCharecters[5].Hp);
            Console.WriteLine("-------------");
-           Console.WriteLine("Тима врага.");
-           Console.WriteLine("Хп Паладина" + AllCharecters[7].hp);
+           Console.WriteLine("Хп Жреца" + AllCharecters[6].Hp);
+           Console.WriteLine("-------------");
+           Console.WriteLine("Хп Разбойника" + AllCharecters[7].Hp);
 
        }
     }
